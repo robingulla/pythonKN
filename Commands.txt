@@ -1,0 +1,10 @@
+cmd line
+Check git has downloaded  from gitcli on google ( gitclient )
+
+ git --version 
+
+
+if version comes means its installed 
+ or just git 
+
+commands should be displayed 

@@ -1,1 +1,1 @@
-pad bhai mujhe .. seek raha hu 
+pad bhai mujhe .. seek raha hu python aur pagalpan
