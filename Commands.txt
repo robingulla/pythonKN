@@ -23,7 +23,7 @@ reveal in file explorer (git folder ) is created  Its hidden folder
 
 git status
 
---> Files by default are U - untracked 
+--> Files by default are U - untracked  ( M is modified)
 
 --> Files to be added git add readme.md 
 
@@ -36,7 +36,19 @@ git status
 
 --> commit the files-> git commit -m 'add description'
 
---> Finally push  git push -u origin main
+--> git branch -M main
+
+--> git remote add origin https://github.com/robingulla/pythonKN
+
+--> check with git remote -V
+
+--> Finally push  command --> git push -u origin main
+
+Only First time while setting up repository 
+
+git config --global user.name “[firstname lastname]”
+git config --global user.email “[valid-email]”
+
 
 pull 
 
@@ -49,7 +61,8 @@ Pull this back to sync with code on laptop in VS2
 
 New Environment 
 
-conda create -p -venv python3.9 -y
+conda create -p -venv python==3.11.3 -y   --- 
+(python version installed on anaconda and -y allows permission by default)
 
 
 
