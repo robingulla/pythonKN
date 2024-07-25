@@ -76,6 +76,33 @@ git checkout RobinDev1
 
 RobinDev1 should become main i.e. should highlight
 
+make changes to code and then 
+
+add file.py
+commit file.py
+
+git checkout <main.. branch>
+
+git merge RobinDev1
+
+
+You can then delete the branch locally since your changes have moved to main
+
+git branch -d <branch name>
+
+
+Resolving conflicts 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
