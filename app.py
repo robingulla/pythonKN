@@ -1,4 +1,3 @@
 ###nayi python file 
-def addition(a,b):
-    return(a+b)
-print()
+a=10
+print(a+20)

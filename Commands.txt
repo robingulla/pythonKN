@@ -8,3 +8,53 @@ if version comes means its installed
  or just git 
 
 commands should be displayed 
+
+
+create a folder in VS2 
+then create a file readme.md 
+and /or app.py  and any number of files you require 
+
+to get this folder into Git as a repository , have to initialise
+
+
+Initialise ---> git init
+
+reveal in file explorer (git folder ) is created  Its hidden folder 
+
+git status
+
+--> Files by default are U - untracked 
+
+--> Files to be added git add readme.md 
+
+--> if you want to add all files in a folder 
+    command --> git add .
+
+
+--> files that are modified will show M
+
+
+--> commit the files-> git commit -m 'add description'
+
+--> Finally push  git push -u origin main
+
+pull 
+
+Create files in git direct on web and call it gitignore and commit changes direct 
+
+Pull this back to sync with code on laptop in VS2 
+
+==> git pull origin main
+
+
+New Environment 
+
+conda create -p -venv python3.9 -y
+
+
+
+
+
+
+
+
