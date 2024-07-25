@@ -52,7 +52,9 @@ git config --global user.email “[valid-email]”
 
 pull 
 
-Create files in git direct on web and call it gitignore and commit changes direct 
+Create files in git direct on web and call it .gitignore and commit changes direct
+
+Imp - .gitignore  
 
 Pull this back to sync with code on laptop in VS2 
 
@@ -61,8 +63,19 @@ Pull this back to sync with code on laptop in VS2
 
 New Environment 
 
-conda create -p -venv python==3.11.3 -y   --- 
+conda create -p -testenv python==3.11.3 -y   --- 
 (python version installed on anaconda and -y allows permission by default)
+
+.gitignore 
+
+Modify environment section to exclude testenv from commiting and pushing to url (git )
+
+git branch  
+git branch <new branch e.g. RobinDev1)
+git checkout RobinDev1
+
+RobinDev1 should become main i.e. should highlight
+
 
 
 
